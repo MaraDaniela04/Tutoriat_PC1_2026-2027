@@ -20,7 +20,7 @@ int main()
             text[i] = l2;
             
     FILE* g = fopen("citire.in", "w");        
-    if (f == NULL) {
+    if (g == NULL) {
         printf("Eroare citire.in");
         return 1;
     }
